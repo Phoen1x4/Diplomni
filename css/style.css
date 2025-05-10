@@ -1,8 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     width: 100%;
     height: auto;
     background-color: #833AE1;
     padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    gap:95px;
 }
 
 .logo {
@@ -11,11 +24,19 @@ header {
     display: inline;
 }
 
-a {
+header a {
     color: white;
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
     display: inline;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
 }
 
 h3 {
@@ -26,4 +47,78 @@ h3 {
     font-size: 30px;
     display: inline;
     text-align: center;
+}
+
+footer {
+    padding: 27px 30px 30px;
+}
+
+footer .top {
+    color: #833AE1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 36px;
+    border-bottom: 2px solid #833AE1;
+    margin-bottom: 27px;
+    text-decoration: none;
+    gap: 52px;
+}
+
+footer .bottom {
+    color: #833AE1;
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    align-items: center;
+}
+
+footer .top a{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-decoration: none;
+}
+
+.baner {
+    padding: 127px 30px 145px;
+    display: flex;
+    flex-direction: column;
+}
+
+.baner p{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.baner h1{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 78px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 43px 0 23px;
+}
+
+.baner a{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 78px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: #833AE1;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 0 20px;
 }
