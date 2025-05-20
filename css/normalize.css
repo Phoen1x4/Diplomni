@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #ffe9e9;
+    background-color: #833AE1;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,13 +15,12 @@ body {
 
 header, main, footer {
     width: 100%;
-    max-width: 1280px;
     box-sizing: border-box;
     margin: 0 auto;
 }
 
 main, footer {
-    background-color: #FBF9F9;
+    background-color: white;
 }
 
 footer {
