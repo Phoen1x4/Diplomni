@@ -169,13 +169,19 @@ footer .top a{
     padding: 32px 0 10px;
 }
 
+.about_flex {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .about_card {
     background-color: white;
     max-width: 575px;
     border-radius: 15px;
     border: 1px solid #833AE1;
     padding: 35px 25px 47px;
-    margin: 30px;
 }
 
 .about_card .top {
@@ -232,6 +238,7 @@ footer .top a{
     letter-spacing: 0%;
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 56px;
 }
 
 .technologies_flex {
@@ -252,6 +259,8 @@ footer .top a{
     padding: 20px;
     border: 1px solid #602B7AF5;
     border-radius: 18px;
+    max-width: 500px;
+    width: 100%;
 }
 
 .student {
@@ -273,7 +282,7 @@ footer .top a{
     line-height: 35px;
     letter-spacing: 0%;
     text-align: center;
-    margin:25px;
+    margin-bottom: 25px;
 }
 
 .student_flex .years {
@@ -295,11 +304,8 @@ footer .top a{
 
 .student_flex img {
     border-radius: 25px;
-    width: 320px;
+    width: 320px; 
     height: 369px;
     object-fit: cover;
     object-position: center;
-    position: absolute;
-    top: 3500px;
-    right: 30px;
 }
