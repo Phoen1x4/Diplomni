@@ -81,6 +81,10 @@ footer .top a{
     text-decoration: none;
 }
 
+footer span {
+    text-align: center;
+}
+
 .baner {
     padding: 127px 30px 145px;
     display: flex;
@@ -268,7 +272,7 @@ footer .top a{
     border: 3px solid #833AE1;
 }
 
-.student-flex {
+.student_flex {
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -282,7 +286,7 @@ footer .top a{
     line-height: 35px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 25px;
+    margin: 0 0 25px;
 }
 
 .student_flex .years {
@@ -304,7 +308,7 @@ footer .top a{
 
 .student_flex img {
     border-radius: 25px;
-    width: 320px; 
+    width: 320px;
     height: 369px;
     object-fit: cover;
     object-position: center;

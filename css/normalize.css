@@ -15,6 +15,7 @@ body {
 
 header, main, footer {
     width: 100%;
+    max-width: 1280px;
     box-sizing: border-box;
     margin: 0 auto;
 }
